@@ -1,0 +1,21 @@
+# pull official base image
+FROM node:current-alpine3.11
+RUN npm install -g create-react-app \
+                   create-react-native-app \
+                   react-native-cli
+
+# set working directory
+RUN mkdir /app
+WORKDIR /app
+
+ADD Dockerfile.dev /app
+
+# -y - reply yes to all prompts
+RUN npm install -y git vim
+
+EXPOSE 3000
+
+# To build
+#   docker build . -f "Dockerfile.dev" -t frontenddev
+
+
