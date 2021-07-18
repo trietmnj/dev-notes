@@ -1,8 +1,12 @@
 # pull official base image
-FROM node:current-alpine3.11
+FROM node:current-alpine
+
+# install react, redux, material-ui
 RUN npm install -g create-react-app \
                    create-react-native-app \
                    react-native-cli
+RUN npm install -g @reduxjs/toolkit
+RUN npm install -g @material-ui/core
 
 # set working directory
 RUN mkdir /app
