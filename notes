@@ -1,0 +1,78 @@
+	don't use
+npm install react-scripts --save
+
+sudo chmod +x node_modules/.bin/react-scripts
+
+
+#################################################################
+#	DOCKER
+#################################################################
+
+docker build . -f "Dockerfile.dev" -t react-practice
+
+
+
+#################################################################
+#	GIT
+#################################################################
+
+
+
+git rm --cached <file>
+
+git reset HEAD -- path/to/file
+
+
+git log
+
+
+git reset --hard origin/master
+
+
+  change branch
+git log
+git checkout <existing_branch>
+git checkout -b <new_branch>
+
+git push --set-upstream origin jul-branch
+
+git pull origin master --rebase
+
+git fetch
+git rebase origin/master
+
+
+
+git config --global user.email "trietpersonal@gmail.com"
+git config --global user.name "Triet Nguyen"
+
+
+#################################################################
+#	NPM
+#################################################################
+
+npm start -- --port 8000
+npm audit fix
+
+npm install citysdk
+
+
+
+	change expose port in package.json
+"start": "PORT=3006 react-scripts start"
+
+#################################################################
+#	ALPINE
+#################################################################
+
+apk add git
+
+
+
+reducer
+  functions that take the current state and an action as arguments, and return a new state result
+ 
+action
+  objects that have a type field; an event that describes something that happened in the application
+
+dispatch
