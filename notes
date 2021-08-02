@@ -61,6 +61,8 @@ npm install citysdk
 	change expose port in package.json
 "start": "PORT=3006 react-scripts start"
 
+npm update -g
+
 #################################################################
 #	ALPINE
 #################################################################
