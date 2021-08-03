@@ -16,7 +16,8 @@ docker build . -f "Dockerfile.dev" -t react-practice
 #	GIT
 #################################################################
 
-
+git clean -n
+git clean -f
 
 git rm --cached <file>
 
