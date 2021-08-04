@@ -35,6 +35,9 @@ git log
 git checkout <existing_branch>
 git checkout -b <new_branch>
 
+***** DELETE BRANCH - BECAREFUL *****
+git branch -D <local-branch>
+
 git push --set-upstream origin jul-branch
 
 git pull origin master --rebase
