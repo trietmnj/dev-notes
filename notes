@@ -13,6 +13,11 @@ docker-compose up
 docker-compose down --rmi local
 
 
+https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container/26622041#26622041
+docker commit test01 test02
+docker run -p 8080:8080 -td test02
+
+
 
 #################################################################
 #	GIT
