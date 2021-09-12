@@ -17,6 +17,8 @@ https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-a
 docker commit test01 test02
 docker run -p 8080:8080 -td test02
 
+docker run --name name01 --expose port01 -td image01
+
 
 
 #################################################################
@@ -80,12 +82,3 @@ npm update -g
 
 apk add git
 
-
-
-reducer
-  functions that take the current state and an action as arguments, and return a new state result
- 
-action
-  objects that have a type field; an event that describes something that happened in the application
-
-dispatch
