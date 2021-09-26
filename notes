@@ -88,7 +88,7 @@ npm install citysdk
 
 npm update -g
 
-npm install dotenv --save
+export $(grep -v '^#' .env | xargs)
 
 
 
