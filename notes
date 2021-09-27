@@ -95,6 +95,8 @@ npm update -g
 export $(grep -v '^#' .env | xargs)
 export VAR=VALUE
 
+echo VAR
+
 
 #################################################################
 #	ALPINE
