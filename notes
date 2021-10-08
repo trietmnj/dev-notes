@@ -150,6 +150,8 @@ ctrl+d
 di} - delete to }
 p - paragraph ie continuous block of code
 
+= - indent
+
 :reg - register
 ctrl+^ - last file
 "x - register
