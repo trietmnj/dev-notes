@@ -122,6 +122,22 @@ w
 b
 d dd - delete
 y yy - yank
-p
+p P - paste
 u - undo
-v - visual mode
+v V - visual mode
+i => ctrl+c | ctrl+ [
+:w - write
+
+:reg - register
+ctrl+^ - last file
+"x - register
+"_dd - delete into the void register without yanking
+q<register><commands>q - macro
+ctrl+a - increment next int
+
+
+
+
+
+
+
