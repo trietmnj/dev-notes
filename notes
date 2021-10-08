@@ -118,16 +118,31 @@ apk add git
 #################################################################
 
 10gg
-w
-b
-d dd - delete
+w - 1 word
+b - back 1 word
+
+d dd D - delete, delete whole line, delete rest of line
+c C - delete and go into insert
+s S - same as C properly indented 
+x s - delete 1 character
+
 y yy - yank
 p P - paste
 u - undo
 v V - visual mode
 o O - insert line
-i => ctrl+c | ctrl+ [
+i I => ctrl+c | ctrl+ [ - insert before, quit insert
+a A - insert after
 :w - write
+/<search phrase> => n N - search, next
+# - same word last
+* - same word next
+
+f F df - jump to character, delete to including
+t T dt - jump to before character, delete to
+; , - cycle through results
+
+
 
 :reg - register
 ctrl+^ - last file
