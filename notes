@@ -138,6 +138,7 @@ a A - insert after
 /<search phrase> => n N - search, next
 # - same word last
 * - same word next
+viwp - paste over word
 
 f F df - jump to character, delete to including
 t T dt - jump to before character, delete to
