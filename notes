@@ -125,6 +125,7 @@ y yy - yank
 p P - paste
 u - undo
 v V - visual mode
+o O - insert line
 i => ctrl+c | ctrl+ [
 :w - write
 
