@@ -136,8 +136,29 @@ q<register><commands>q - macro
 ctrl+a - increment next int
 
 
+#################################################################
+#	TMUX
+#################################################################
+b - prefix default
+prefix + d - detach
+prefix + ( - cycle between sessions
+prefix + w - tree view of session and windows
+  x - kill window
+
+prefix + number - move to window
+prefix + n - next window
+prefix + p - previous window
+prefix + " - split window horizontally
+prefix + % - split window vertically
 
 
+tmux neww -n "window name" - new window
+tmux a - reattach
+tmux list-sessions
+tmux switch-client -t "session name" - switch session
+tmux new-session -d -s "name"
+tmux kill-server
 
 
-
+-d detach
+-t target
