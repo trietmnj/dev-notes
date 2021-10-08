@@ -142,6 +142,7 @@ a A - insert after
 f F df - jump to character, delete to including
 t T dt - jump to before character, delete to
 ; , - cycle through results
+0$
 
 { }
 ctrl+u
