@@ -163,6 +163,8 @@ ctrl+^ - last file
 q<register><commands>q - macro
 ctrl+a - increment next int
 
+:set smartcase
+:set ignore case | ic
 
 #################################################################
 #	TMUX
