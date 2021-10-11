@@ -192,3 +192,9 @@ tmux kill-server
 
 -d detach
 -t target
+
+#################################################################
+#	etc
+#################################################################
+
+https://slmeng.medium.com/how-to-install-powerline-fonts-in-windows-b2eedecace58
