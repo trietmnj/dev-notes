@@ -183,7 +183,7 @@ prefix + n - next window
 prefix + p - previous window
 prefix + " - split window horizontally
 prefix + % - split window vertically
-
+prefix + space - switch between different layouts
 
 tmux neww -n "window name" - new window
 tmux a - reattach
