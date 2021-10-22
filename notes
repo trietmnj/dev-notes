@@ -166,6 +166,9 @@ ctrl+a - increment next int
 :set smartcase
 :set ignore case | ic
 
+C-w C-n | C-v - split screen horizontal vertical
+C-w o - close everything except current buffer
+
 #################################################################
 #	TMUX
 #################################################################
