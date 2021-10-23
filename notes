@@ -105,6 +105,10 @@ export VAR=VALUE
 
 echo VAR
 
+docker ps
+sudo docker inspect -f "{{ .NetworkSettings.IPAddress }}" container_name
+ping –c 3 dock.er.ip.addr
+
 
 #################################################################
 #	ALPINE
