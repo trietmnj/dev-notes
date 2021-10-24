@@ -51,6 +51,7 @@ docker run --name name01 --expose port01 -td image01
 
 
 docker run -p 80:80 \
+	--name PGADMIN_DEV \
 	-e "PGADMIN_DEFAULT_EMAIL=triet.nguyen@usace.army.mil" \
 	-e "PGADMIN_DEFAULT_PASSWORD=password" \
 	-d dpage/pgadmin4
