@@ -188,9 +188,12 @@ ctrl+a - increment next int
 :set ignore case | ic
 
 C-w n | v - split screen horizontal vertical
+C-w H | J - switch to horizontal vertical
 C-w q - close current split
 C-w o - close everything except current buffer
 C-w = - move all splits to default sizing
+C-w r - rotate windows
+
 
 #################################################################
 #	TMUX
