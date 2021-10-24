@@ -18,6 +18,12 @@ sudo chmod +x node_modules/.bin/react-scripts
 	to connect to a bash shell inside container
 docker exec -it container_name bash
 
+docker run -t -i → can be detached with ^P^Qand reattached with docker attach
+	
+	setup docker-compose detached
+docker-compose up -d
+
+
 
 #################################################################
 #	POSTGRES
