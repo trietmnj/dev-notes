@@ -15,6 +15,10 @@ npm install react-scripts --save
 
 sudo chmod +x node_modules/.bin/react-scripts
 
+	to connect to a bash shell inside container
+docker exec -it container_name bash
+
+
 #################################################################
 #	POSTGRES
 #################################################################
