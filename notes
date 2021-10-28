@@ -195,6 +195,9 @@ C-w = - move all splits to default sizing
 C-w r - rotate windows
 
 
+:g/<pattern>/ - show all occurences in current file
+
+
 #################################################################
 #	TMUX
 #################################################################
