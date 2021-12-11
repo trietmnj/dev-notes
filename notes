@@ -197,6 +197,8 @@ C-w r - rotate windows
 
 :g/<pattern>/ - show all occurences in current file
 
+:verbose map <key>
+
 
 #################################################################
 #	TMUX
