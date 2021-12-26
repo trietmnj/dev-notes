@@ -255,7 +255,7 @@ length by line
 awk '{ print length }' file
 
 exclude files
-find . -type f ! -name '*.tag'
+find . -type f ! \( -name '*.tag' -o -name '*.tag2' \)
 
 #################################################################
 #	Windows
