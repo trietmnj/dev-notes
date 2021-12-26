@@ -257,6 +257,9 @@ awk '{ print length }' file
 exclude files
 find . -type f ! \( -name '*.tag' -o -path '*/path/*' \)
 
+mix of pruning dir and file names
+find . -type d \( -name .git -o -name node_modules \) -prune -o  -type f ! \( -name '*.csv' -o -name '*.json' \)
+
 #################################################################
 #	Windows
 #################################################################
