@@ -254,6 +254,8 @@ grep -n -v "exclude text" file
 length by line
 awk '{ print length }' file
 
+exclude files
+find . -type f ! -name '*.tag'
 
 #################################################################
 #	Windows
