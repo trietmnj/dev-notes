@@ -248,6 +248,13 @@ grep -rnI "path" -e "text"
 multithreading grep
 find . -type f -print0 | xargs -0 -P NUMBER_OF_THREADS grep -nI -e "text" > files.txt
 
+exclude line
+grep -n -v "exclude text" file
+
+length by line
+awk '{ print length }' file
+
+
 #################################################################
 #	Windows
 #################################################################
