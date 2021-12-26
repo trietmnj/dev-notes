@@ -245,6 +245,9 @@ grep -rnI "path" -e "text"
 	-n => line number
 	-I => ignore binary files
 
+multithreading grep
+find . -type f -print0 | xargs -0 -P NUMBER_OF_THREADS grep -n "text" > files.txt
+
 #################################################################
 #	Windows
 #################################################################
