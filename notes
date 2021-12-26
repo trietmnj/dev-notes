@@ -235,3 +235,14 @@ https://slmeng.medium.com/how-to-install-powerline-fonts-in-windows-b2eedecace58
 
 bash cheatsheet
 https://blog.ssdnodes.com/blog/cheatsheet-bash-shortcuts/
+
+#################################################################
+#	Linux
+#################################################################
+
+grep -rn "path" -e "text"
+	-r => recursive
+	-n => line number
+
+
+
