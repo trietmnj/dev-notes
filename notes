@@ -245,5 +245,13 @@ grep -rnI "path" -e "text"
 	-n => line number
 	-I => ignore binary files
 
+#################################################################
+#	Windows
+#################################################################
+
+robocopy SOURCE DEST /MT /ZB /NFL /NDL /E
+
+
+
 
 
