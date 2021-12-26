@@ -240,9 +240,10 @@ https://blog.ssdnodes.com/blog/cheatsheet-bash-shortcuts/
 #	Linux
 #################################################################
 
-grep -rn "path" -e "text"
+grep -rnI "path" -e "text"
 	-r => recursive
 	-n => line number
+	-I => ignore binary files
 
 
 
