@@ -258,7 +258,7 @@ exclude files
 find . -type f ! \( -name '*.tag' -o -path '*/path/*' \)
 
 mix of pruning dir and file names
-find . \( -name .git -o -name node_modules \) -type d -prune -o  -type f ! \( -name '*.csv' -o -name '*.json' \)
+find . \( -name .git -o -name node_modules -o -name vender \) -type d -prune -o  -type f ! \( -name '*.csv' -o -name '*.json' -o -name '*.map' \)
 
 #################################################################
 #	Windows
