@@ -96,6 +96,9 @@ git rebase origin/master
 git config --global user.email "random@gmail.com"
 git config --global user.name "Name Here"
 
+	rm file already added to repo - make sure to add to .gitignore
+git rm --cache file
+
 
 #################################################################
 #	NPM
