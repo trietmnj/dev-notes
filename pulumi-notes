@@ -1,1 +1,2 @@
 
+pulumi new --logtostderr --verbose=9
