@@ -1,2 +1,7 @@
-
 pulumi new --logtostderr --verbose=9
+
+####################################################
+# SECRETS
+####################################################
+
+pulumi config set --secret mySecretKey mySecretValue
