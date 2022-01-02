@@ -3,5 +3,5 @@ pulumi new --logtostderr --verbose=9
 ####################################################
 # SECRETS
 ####################################################
-
+  --secret tag encrypts value in local yaml config file !!! IMPORTANT 
 pulumi config set --secret mySecretKey mySecretValue
