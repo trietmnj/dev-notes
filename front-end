@@ -2,5 +2,7 @@
 # JQUERY
 ################################################
 
+https://www.w3schools.com/jquery/jquery_ref_selectors.asp
   test jquery selectors
 $('selector').css('outline', '3px solid red')
+
