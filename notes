@@ -99,6 +99,9 @@ git config --global user.name "Name Here"
 	rm file already added to repo - make sure to add to .gitignore
 git rm --cache file
 
+git config --global credential.helper cache
+
+
 
 #################################################################
 #	NPM
