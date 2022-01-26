@@ -1,2 +1,4 @@
   Test ip
 curl ifconfig.co/
+
+timeout 5 curl -x "socks5://0.0.0.0:0000" "ifconfig.co/"
