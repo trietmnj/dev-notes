@@ -189,6 +189,7 @@ ctrl+^ - last file
 "_dd - delete into the void register without yanking
 q<register><commands>q - macro
 ctrl+a - increment next int
+:5,10norm! @a - apply macro on a to line 5 to 10
 
 :set smartcase
 :set ignore case | ic
