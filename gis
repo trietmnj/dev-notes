@@ -1,0 +1,1 @@
+ogrinfo -so path/file.shp layer
