@@ -23,6 +23,8 @@ docker run -t -i → can be detached with ^P^Qand reattached with docker attach
 	setup docker-compose detached
 docker-compose up -d
 
+docker run -ti -v certs:/workspaces/certs --name PGADMIN_CERTSBIND pgadminwithbi
+nd bash --expose 5080:80
 
 #################################################################
 #	DOCKER
