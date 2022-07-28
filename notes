@@ -264,6 +264,9 @@ find . \( -name .git -o -name node_modules -o -name vender \) -type d -prune -o 
 
 export $(grep -v '^#' .env | xargs)
 
+tail -f error.log
+
+
 #################################################################
 #	Windows
 #################################################################
