@@ -1,1 +1,3 @@
 ogrinfo -so path/file.shp layer
+
+ogrinfo -al -where "BID like '%'"  /fim-vol1/nsi/2022/shapes/AL/01073.shp
