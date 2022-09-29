@@ -266,6 +266,7 @@ export $(grep -v '^#' .env | xargs)
 
 tail -f error.log
 
+find . -type f -name "*.gpkg" -execdir zip "{}.zip" "{}" \;
 
 #################################################################
 #	Windows
