@@ -270,6 +270,9 @@ find . -type f -name "*.gpkg" -execdir zip "{}.zip" "{}" \;
 
 tar -cvzf my_files.tar.gz file1 file2
 
+tar -cvzf my_files.tar.gz *.gpkg
+
+
 
 #################################################################
 #	Windows
