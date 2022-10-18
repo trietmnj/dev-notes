@@ -26,3 +26,5 @@ https://subtxt.in/library-data/2016/03/28/json_stream_jq
 
 zcat < nsi-all-pub-lim50.geojson | jq --stream "fromstream(1|truncate_stream(inputs))
 
+zcat < nsi-all-pub-lim50.geojson.gz | jq --stream "fromstream(0|truncate_stream(inputs))" | jq ".features"
+
