@@ -22,3 +22,4 @@ curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5'
 https://gis.stackexchange.com/questions/271012/command-line-tool-to-convert-geojson-file-to-line-delimited-geojson
 cat my.geojson | jq -c ".features[]" > nld_features.json
 
+https://subtxt.in/library-data/2016/03/28/json_stream_jq
