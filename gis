@@ -29,3 +29,5 @@ zcat < nsi-all-pub-lim50.geojson | jq --stream "fromstream(1|truncate_stream(inp
   turn from ogr2ogr format to newline json
 zcat < nsi-all-pub-lim50.geojson.gz | jq --stream "fromstream(0|truncate_stream(inputs))" | jq -c ".features[]" | gzip -c > nl-nsi-all-pub.geojson.gz
 
+zcat < nsi-all-pub-lim50.geojson.gz | jq -nc --stream 'fromstream(2|truncate_stream(inputs| del(.[0][0:1])))'
+
