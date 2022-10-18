@@ -32,5 +32,5 @@ zcat < nsi-all-pub-lim50.geojson.gz | jq --stream "fromstream(0|truncate_stream(
 zcat < nsi-all-pub-lim50.geojson.gz | jq -nc --stream 'fromstream(2|truncate_stream(inputs| del(.[0][0:1])))'
 
 nohup cat nsi-all-pub.geojson | jq -nc --stream 'fromstream(2|truncate_stream(inputs| del(.[0][0:1])))' | gzip -c  > nsi-all-pub.nlgeojson.gz
-zcat < nsi-all-pub.geojson.gz | jq -nc --stream 'fromstream(2|truncate_stream(inputs| del(.[0][0:1]))) | select(.type=="Feature")' | gzip -c  > nsi-all-pub.nlgeojson.gz
+zcat < nsi-all-pub.geojson.gz | jq -nc --stream 'fromstream(1|truncate_stream(inputs| del(.[0][0:1]))) | select(.type=="Feature")' | gzip -c  > nsi-all-pub.nlgeojson.gz
 
