@@ -8,9 +8,9 @@ ogr2ogr -f GeoJSON /vsistdout/ LeveedArea.shp | gzip -c > test2.geojson.gz
 
 -t to set temp storage folder
 
-tippecanoe -P -pf -pk -Z0 -z7 -o hexbin10k.mbtiles hexbin_10k.geojson.gz
-tippecanoe -P -pf -pk -Z8 -z13 -o hexbin2500.mbtiles hexbin_2500.geojson.gz
-tippecanoe -P -pf -pk -Z11 -z14 -o hexbin500.mbtiles hexbin_500.geojson.gz
+tippecanoe -P -pf -pk -Z0 -z7 -s EPSG:3857 -o hexbin10k.mbtiles hexbin_10k.geojson.gz
+tippecanoe -P -pf -pk -Z8 -z13 -s EPSG:3857 -o hexbin2500.mbtiles hexbin_2500.geojson.gz
+tippecanoe -P -pf -pk -Z11 -z14 -s EPSG:3857 -o hexbin500.mbtiles hexbin_500.geojson.gz
 tippecanoe -P -r1 --cluster-distance=2 -pf -pk -z15 -t /path/to/tmp/with/space -o nsi_allc2.mbtiles nsi_all.geojson.gz
 
 
