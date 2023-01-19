@@ -96,6 +96,9 @@ git config --global credential.helper cache
 git remote set-url origin https://github.com/RemiB/myrepo.git
 https://stackoverflow.com/questions/25545613/how-can-i-push-to-my-fork-from-a-clone-of-the-original-repo
 
+ lines of code
+git ls-files | xargs wc -l
+
 
 #################################################################
 #	NPM
