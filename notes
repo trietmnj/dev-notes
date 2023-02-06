@@ -284,6 +284,13 @@ tar -cvzf my_files.tar.gz *.gpkg
 robocopy SOURCE DEST /MT /ZB /NFL /NDL /E
 
 
+#################################################################
+#	python env
+#################################################################
+
+python -m venv new_env
+source new_env/bin/activate.fish
+deactivate
 
 
 
