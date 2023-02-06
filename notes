@@ -285,12 +285,13 @@ robocopy SOURCE DEST /MT /ZB /NFL /NDL /E
 
 
 #################################################################
-#	python env
+#	python
 #################################################################
 
 python -m venv new_env
 source new_env/bin/activate.fish
 deactivate
+pip install -r requirements.txt
 
 
 
