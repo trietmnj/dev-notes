@@ -7,3 +7,9 @@ https://christianjmills.com/posts/pytorch-cuda-wsl2/#the-headaches
 
   move wsl
 https://blog.iany.me/2020/06/move-wsl-to-another-drive/
+
+install cuda/cudnn on wsl2
+https://gist.github.com/kmhofmann/cee7c0053da8cc09d62d74a6a4c1c5e4
+
+
+
