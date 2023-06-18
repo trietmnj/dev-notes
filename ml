@@ -16,6 +16,11 @@ https://gist.github.com/kmhofmann/cee7c0053da8cc09d62d74a6a4c1c5e4
   CONDA
 conda create --name myenv
 conda create -n myenv python=3.9
+conda deactivate
+conda active myenv
+conda env list
+conda remove --name ENV_NAME --all
+
 
 sudo apt install python3-pip
 pip install --upgrade pip
